@@ -9,12 +9,11 @@
  */
 int main(void)
 {
-	for (int c = 0; c <= 9; c++)
+	for (int c = '0'; c <='9'; c++)
 	{
-		if (c != 'e' || c != 'q')
-		{
-			putchar(c);
-		}
+	
+		putchar(c);
+
 	}
 
 	putchar('\n');
