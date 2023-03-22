@@ -1,22 +1,19 @@
 #include <stdio.h>
 /**
- * main - Prints the even Fiab numbers
- * less than 4000000.
+ * main - Prints the sum of all multiples of 3 and 5 less than 1021
  * Return: None
  */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2, sum = k;
+	int sum, count;
 
-	while (k + j < 40000000)
+	for (count = 1; count < 5; count++)
 	{
-		k += j;
-		if (k % 2 == 0)
-			sum += k;
-		j = k - j;
-		++i
+		if ((count % 3 == 0) || (count % 5 == 0))
+		{
+			sum += count;
+		}
 	}
-	printf("%ld\n", sum);
+	printf("%d", sum);
 	return (0);
 }
