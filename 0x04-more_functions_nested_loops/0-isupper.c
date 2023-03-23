@@ -1,15 +1,17 @@
 
-int _isupper(int c);
+int _isupper(int c)
+{
 
 	/*Assign c to int ch */
-	int ch = 'c';
+	int ch = c;
 	
-	switch (ch)
+	if ( ch > 64 && ch <91)
 	{
-		case (ch > 64 && ch < 91):
-			return (1);
-			break;
-		default:
-			return (0);
-			break;
+	
+		return (1);
 	}
+	else
+	{
+		return (0);
+	}
+}
