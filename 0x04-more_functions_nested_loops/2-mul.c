@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * mul - multiples two numbers
  * @a:firt integer value
