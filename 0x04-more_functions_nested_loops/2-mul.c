@@ -8,6 +8,7 @@
 
 int mul(int a, int b)
 {
+	/** assign arguments to formal parameter*/
 	int num1 = a;
 	int num2 = b;
 	int prod = a * b;
