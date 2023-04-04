@@ -7,19 +7,14 @@
  * Return: Return memeset()
  */
 char *_memset(char *s, char b, unsigned int n)
-{
-	if (s == NULL)
-	{
-		return (NULL);
-	}
+{}
 	/*set counter i */
-	int i = 0;
+
 	/*iterate to fill *s with b n number of times*/
-	while (i < n)
-	{
+	for (int i = 0; i < n; i++)
+{
 		/*assign value of b to pointer address*/
 		s[i] = b;
-		i++;
 	}
 	return (s);
 }
