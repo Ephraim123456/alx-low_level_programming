@@ -10,7 +10,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 
 	/*iterate to fill *s with b n number of times*/
-	for (int i = 0; i < n; i++)
+	for (unsigned int i = 0; i < n; i++)
 	{
 		/*assign value of b to pointer address*/
 		s[i] = b;
