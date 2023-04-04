@@ -8,7 +8,14 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	constbyte = memset(*s, b, n);
-	:
-	return (constbyte());
+	/*set counter i */
+	int i = 0;
+	/*iterate to fill *s with b n number of times*/
+	while (i < n)
+	{
+		/*assign value of b to pointer address*/
+		*s = b;
+		i++;
+	}
+	return (*s);
 }
