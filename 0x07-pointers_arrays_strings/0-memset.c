@@ -7,8 +7,6 @@
  * Return: Return memeset()
  */
 char *_memset(char *s, char b, unsigned int n)
-{}
-	/*set counter i */
 
 	/*iterate to fill *s with b n number of times*/
 	for (int i = 0; i < n; i++)
