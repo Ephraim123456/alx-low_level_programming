@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - function to print its name
  * @argc: counts the number argument on the command line
